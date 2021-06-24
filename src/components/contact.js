@@ -15,6 +15,9 @@ const InnerWrapper = styled.div`
     padding: 100px 0;
     max-width: 1024px;
     margin: 0 auto;
+    @media (max-width: 768px) {
+        padding: 50px 0;
+    }
 `;
 
 const ContactWrapper = styled.div`
@@ -24,11 +27,22 @@ const ContactLeft = styled.div`
     flex: 0 0 50%;
     img{
         max-width: 150px;
+        @media (max-width: 768px) {
+            display: block;
+            width: 100%;
+        }
     }
     .contactinfo{
         display: flex;
+        @media (max-width: 768px) {
+            display: block;
+            
+        }
         .info{
             padding: 0 20px;
+            @media (max-width: 768px) {
+                padding: 0;
+            }
         }
         label{
             font-weight: 500;
