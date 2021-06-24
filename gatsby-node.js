@@ -37,7 +37,7 @@ exports.createPages = ({ graphql, actions }) => {
 					reject(result.errors);
 				}
 
-				const tjenester = result?.data?.tjenester?.nodes || [];
+				const tjenester = result.data.tjenester.nodes || [];
 				tjenester.forEach(tjeneste => {
 					if (tjeneste.slug)
 						createPage({
