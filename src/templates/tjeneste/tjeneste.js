@@ -9,13 +9,24 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 const Wrapper = styled.div`
     max-width: 800px;
     margin: 100px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    @media (max-width: 768px) {
+        margin: 40px 0;
+    }
     h1{
         font-weight: 500;
+        @media (max-width: 768px) {
+            font-size: 30px;
+        }
     }
     h2{
         font-weight: 500;
         font-size: 20px;
         line-height: 1.5;
+        @media (max-width: 768px) {
+            font-size: 18px;
+        }
     }
     p{
 
