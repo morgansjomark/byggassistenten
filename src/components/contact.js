@@ -77,7 +77,7 @@ function KontaktMeg(){
                             <label>Navn:</label>
                             <span>Magne Sjømark</span>
                             <label>E-post:</label>
-                            <span><a href="mailto:post@byggassistenten.com">post@byggassistenten.com</a></span>
+                            <span><a href="mailto:magne@sjomark.no">magne@sjomark.no</a></span>
                             <label>Mobil:</label>
                             <span><a href="tel:99244732">99 24 47 32</a></span>
                         </div>
