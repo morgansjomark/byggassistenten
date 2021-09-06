@@ -39,7 +39,6 @@ const Menu = styled.div`
   display: flex;
   flex-direction: row-reverse;
   transition: opacity 0.5s;
-  z-index: -1;
   @media (max-width: 768px) {
     position: absolute;
     top: -70px;
