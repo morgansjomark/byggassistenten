@@ -10,7 +10,7 @@ import KontaktMeg from "../components/contact"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Hjem" />
     <TopBanner />
     <Tjenester />
     <KontaktMeg />
