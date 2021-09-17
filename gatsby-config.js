@@ -5,8 +5,8 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     title: `Byggassistenten Sjømark`,
-    description: ``,
-    author: `@morgansjomark`,
+    description: `Din samarbeidsparter til riktig byggkvalitet`,
+    author: `Morgan Sjømark`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -38,7 +38,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/ba_fav.png`, // This path is relative to the root of the site.
       },
     },
     {
