@@ -10,7 +10,7 @@ import KontaktMeg from "../components/contact"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Byggassistenten Sjømark" description="Din samarbeidsparter til riktig byggkvalitet" />
+    <SEO title="Hjem" description="Din samarbeidsparter til riktig byggkvalitet" />
     <TopBanner />
     <Tjenester />
     <KontaktMeg />
