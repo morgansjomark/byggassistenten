@@ -68,6 +68,9 @@ const MenuItem = styled(Link)`
   &:hover{
     color: #0056b8;
   }
+  @media (max-width: 768px) {
+    display: inline-block;
+  }
 `;
 
 const MenuToggle = styled.img`
@@ -96,6 +99,7 @@ const Header = () => {
       }} src={Menubar} />
       <Menu active={open} >
         <MenuItem  to={"/#kontakt"}>Kontakt</MenuItem>
+        <MenuItem to={"/om-meg"}>Om meg</MenuItem>
         <MenuItem to={"/#tjenester"}>Tjenester</MenuItem>
         <MenuItem to={"/#hjem"}>Hjem</MenuItem>
       </Menu>
